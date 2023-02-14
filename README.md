@@ -19,10 +19,15 @@ Hope that helps!
 We tested six different machine learning models to see which one could tell good loans from bad loans the best. The results are in:
 
 - The Naive Random Oversampling model did okay, with a balanced accuracy of 0.66.
+![Image 1](https://github.com/Sergg99/Credit_Risk_Analysis/blob/b6b5613acd31c1fb78780b8817b3c7456171be12/Resources/Naive%20Random%20Oversampling.jpg)
 - The SMOTE Oversampling and Undersampling models were about the same, with a balanced accuracy of 0.63.
+![Image 2](https://github.com/Sergg99/Credit_Risk_Analysis/blob/b6b5613acd31c1fb78780b8817b3c7456171be12/Resources/SMOTE%20Oversampling.jpg)
 - The Combination Under-Over Sampling model didn't work so well, with a balanced accuracy of 0.52.
+![Image 3](https://github.com/Sergg99/Credit_Risk_Analysis/blob/b6b5613acd31c1fb78780b8817b3c7456171be12/Resources/Combination%20Under-Over%20Sampling.jpg)
 - The Balanced Random Forest Classifier did better, with a balanced accuracy of 0.79.
+![Image 4](https://github.com/Sergg99/Credit_Risk_Analysis/blob/b6b5613acd31c1fb78780b8817b3c7456171be12/Resources/Balanced%20Random%20Forest%20Classifier.jpg)
 - But the clear winner was the Easy Ensemble AdaBoost Classifier, with a balanced accuracy of 0.93!
+![Image 5](https://github.com/Sergg99/Credit_Risk_Analysis/blob/b6b5613acd31c1fb78780b8817b3c7456171be12/Resources/Easy%20Ensemble%20AdaBoost%20Classifier.jpg)
 
 ## Summary: 
 
